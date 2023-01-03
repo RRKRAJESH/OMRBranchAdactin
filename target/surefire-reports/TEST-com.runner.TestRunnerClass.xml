@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="90" failures="0" name="com.runner.TestRunnerClass" time="156.803" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_351\bin"/>
+    <property name="java.vm.version" value="25.351-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Rajesh kumar\eclipse-workspace\OMRBranchAdactinAutomation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Rajesh kumar\eclipse-workspace\OMRBranchAdactinAutomation"/>
+    <property name="java.runtime.version" value="1.8.0_351-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_351\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\RAJESH~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Users\Rajesh kumar\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6236086622076213250.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_351\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_351/bin/client;C:/Program Files/Java/jre1.8.0_351/bin;C:/Program Files/Java/jre1.8.0_351/lib/i386;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Rajesh kumar\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Users\Rajesh kumar\Downloads\eclipse-committers-oxygen-3a-win32\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Rajesh kumar"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Rajesh kumar"/>
+    <property name="java.class.path" value="C:\Users\Rajesh kumar\Downloads\eclipse-committers-oxygen-3a-win32\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_351"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_351"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_351\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_351\lib\resources.jar;C:\Program Files\Java\jre1.8.0_351\lib\rt.jar;C:\Program Files\Java\jre1.8.0_351\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_351\lib\jce.jar;C:\Program Files\Java\jre1.8.0_351\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_351\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_351\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="maven.home" value="C:\Users\Rajesh kumar\eclipse-workspace\OMRBranchAdactinAutomation\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="Verifying the Adactin Hotel Login page with valid Details" name="User is on the adactin page" time="0.088"/>
+  <testcase classname="Verifying the Adactin Hotel Login page with valid Details" name="User should perform login &quot;CONTAINER&quot;,&quot;9940356983&quot;" time="4.884"/>
+  <testcase classname="Verifying the Adactin Hotel Login page with valid Details" name="User should verify after the login with success message &quot;Hello CONTAINER!&quot;" time="0.3"/>
+  <testcase classname="Verifying the Adactin Hotel Login page with valid Details" name="Verifying the Adactin Hotel Login page with valid Details" time="1.982"/>
+  <testcase classname="Verifying the Adactin Hotel Login page with Enter key" name="User is on the adactin page" time="0"/>
+  <testcase classname="Verifying the Adactin Hotel Login page with Enter key" name="User should perform login &quot;CONTAINER&quot;,&quot;9940356983&quot; with Enter key" time="1.937"/>
+  <testcase classname="Verifying the Adactin Hotel Login page with Enter key" name="User should verify after the login with success message &quot;Hello CONTAINER!&quot;" time="2.73"/>
+  <testcase classname="Verifying the Adactin Hotel Login page with Enter key" name="Verifying the Adactin Hotel Login page with Enter key" time="4.063"/>
+  <testcase classname="Verifying the Adactin Hotel Login page with an Invalid crdentials" name="User is on the adactin page" time="0"/>
+  <testcase classname="Verifying the Adactin Hotel Login page with an Invalid crdentials" name="User should perform login &quot;CONTAINER&quot;,&quot;9840356983&quot;" time="1.368"/>
+  <testcase classname="Verifying the Adactin Hotel Login page with an Invalid crdentials" name="User should verify after the login with invalid crdential message &quot;Invalid Login details or Your Password might have expired. &quot;" time="0.545"/>
+  <testcase classname="Verifying the Adactin Hotel Login page with an Invalid crdentials" name="Verifying the Adactin Hotel Login page with an Invalid crdentials" time="2.344"/>
+  <testcase classname="Verifying the search hotel details by select all fields" name="User is on the adactin page" time="0"/>
+  <testcase classname="Verifying the search hotel details by select all fields" name="User should perform login &quot;CONTAINER&quot;,&quot;9940356983&quot;" time="3.781"/>
+  <testcase classname="Verifying the search hotel details by select all fields" name="User should verify after the login with success message &quot;Hello CONTAINER!&quot;" time="0.112"/>
+  <testcase classname="Verifying the search hotel details by select all fields" name="User should search the respective hotel details &quot;New York&quot;,&quot;Hotel Hervey&quot;,&quot;Deluxe&quot;,&quot;4 - Four&quot;,&quot;27/12/2022&quot;,&quot;29/12/2022&quot;,&quot;2 - Two&quot; and &quot;2 - Two&quot;" time="3.747"/>
+  <testcase classname="Verifying the search hotel details by select all fields" name="User should verify the success message after search &quot;Select Hotel&quot;" time="0.087"/>
+  <testcase classname="Verifying the search hotel details by select all fields" name="Verifying the search hotel details by select all fields" time="1.394"/>
+  <testcase classname="Verifying the search hotel details by only select the mandatory fields" name="User is on the adactin page" time="0"/>
+  <testcase classname="Verifying the search hotel details by only select the mandatory fields" name="User should perform login &quot;CONTAINER&quot;,&quot;9940356983&quot;" time="3.336"/>
+  <testcase classname="Verifying the search hotel details by only select the mandatory fields" name="User should verify after the login with success message &quot;Hello CONTAINER!&quot;" time="0.087"/>
+  <testcase classname="Verifying the search hotel details by only select the mandatory fields" name="User should enter only the mandatory fields &quot;New York&quot;,&quot;4 - Four&quot;,&quot;27/12/2022&quot;,&quot;29/12/2022&quot; and &quot;2 - Two&quot;" time="3.109"/>
+  <testcase classname="Verifying the search hotel details by only select the mandatory fields" name="User should verify the success message after search &quot;Select Hotel&quot;" time="0.064"/>
+  <testcase classname="Verifying the search hotel details by only select the mandatory fields" name="Verifying the search hotel details by only select the mandatory fields" time="1.351"/>
+  <testcase classname="Verifying the search hotel details by passing the invalid dates" name="User is on the adactin page" time="0"/>
+  <testcase classname="Verifying the search hotel details by passing the invalid dates" name="User should perform login &quot;CONTAINER&quot;,&quot;9940356983&quot;" time="3.12"/>
+  <testcase classname="Verifying the search hotel details by passing the invalid dates" name="User should verify after the login with success message &quot;Hello CONTAINER!&quot;" time="0.072"/>
+  <testcase classname="Verifying the search hotel details by passing the invalid dates" name="User should search the respective hotel details &quot;New York&quot;,&quot;4 - Four&quot;,&quot;27/12/2023&quot;,&quot;29/12/2022&quot; and &quot;2 - Two&quot;" time="1.774"/>
+  <testcase classname="Verifying the search hotel details by passing the invalid dates" name="User should verify the invalid date message after search &quot;Check-In Date shall be before than Check-Out Date&quot;,&quot;Check-Out Date shall be after than Check-In Date&quot;" time="0.141"/>
+  <testcase classname="Verifying the search hotel details by passing the invalid dates" name="Verifying the search hotel details by passing the invalid dates" time="1.439"/>
+  <testcase classname="Verifying the search hotel details by without passing any fields" name="User is on the adactin page" time="0"/>
+  <testcase classname="Verifying the search hotel details by without passing any fields" name="User should perform login &quot;CONTAINER&quot;,&quot;9940356983&quot;" time="3.537"/>
+  <testcase classname="Verifying the search hotel details by without passing any fields" name="User should verify after the login with success message &quot;Hello CONTAINER!&quot;" time="0.083"/>
+  <testcase classname="Verifying the search hotel details by without passing any fields" name="User should click the search button without passing any fields" time="0.192"/>
+  <testcase classname="Verifying the search hotel details by without passing any fields" name="User should verify the error message after search &quot;Please Select a Location&quot;" time="0.085"/>
+  <testcase classname="Verifying the search hotel details by without passing any fields" name="Verifying the search hotel details by without passing any fields" time="1.308"/>
+  <testcase classname="Verfiying by Select Hotel Name" name="User is on the adactin page" time="0"/>
+  <testcase classname="Verfiying by Select Hotel Name" name="User should perform login &quot;CONTAINER&quot;,&quot;9940356983&quot;" time="3.201"/>
+  <testcase classname="Verfiying by Select Hotel Name" name="User should verify after the login with success message &quot;Hello CONTAINER!&quot;" time="0.086"/>
+  <testcase classname="Verfiying by Select Hotel Name" name="User should search the respective hotel details &quot;New York&quot;,&quot;Hotel Hervey&quot;,&quot;Deluxe&quot;,&quot;4 - Four&quot;,&quot;27/12/2022&quot;,&quot;29/12/2022&quot;,&quot;2 - Two&quot; and &quot;2 - Two&quot;" time="4.125"/>
+  <testcase classname="Verfiying by Select Hotel Name" name="User should verify the success message after search &quot;Select Hotel&quot;" time="0.063"/>
+  <testcase classname="Verfiying by Select Hotel Name" name="User should select the Hotel name" time="1.237"/>
+  <testcase classname="Verfiying by Select Hotel Name" name="User should verify the success message after click the continue &quot;Book A Hotel&quot;" time="0.095"/>
+  <testcase classname="Verfiying by Select Hotel Name" name="Verfiying by Select Hotel Name" time="1.371"/>
+  <testcase classname="Verifying by without Select the Hotel name" name="User is on the adactin page" time="0.008"/>
+  <testcase classname="Verifying by without Select the Hotel name" name="User should perform login &quot;CONTAINER&quot;,&quot;9940356983&quot;" time="3.119"/>
+  <testcase classname="Verifying by without Select the Hotel name" name="User should verify after the login with success message &quot;Hello CONTAINER!&quot;" time="0.087"/>
+  <testcase classname="Verifying by without Select the Hotel name" name="User should search the respective hotel details &quot;New York&quot;,&quot;Hotel Hervey&quot;,&quot;Deluxe&quot;,&quot;4 - Four&quot;,&quot;27/12/2022&quot;,&quot;29/12/2022&quot;,&quot;2 - Two&quot; and &quot;2 - Two&quot;" time="3.706"/>
+  <testcase classname="Verifying by without Select the Hotel name" name="User should verify the success message after search &quot;Select Hotel&quot;" time="0.072"/>
+  <testcase classname="Verifying by without Select the Hotel name" name="User should click the continue button" time="0.149"/>
+  <testcase classname="Verifying by without Select the Hotel name" name="User should verify the error message after click the continue &quot;Please Select a Hotel&quot;" time="0.079"/>
+  <testcase classname="Verifying by without Select the Hotel name" name="Verifying by without Select the Hotel name" time="1.354"/>
+  <testcase classname="Verifying the Book Hotel by passing all fields" name="User is on the adactin page" time="0"/>
+  <testcase classname="Verifying the Book Hotel by passing all fields" name="User should perform login &quot;CONTAINER&quot;,&quot;9940356983&quot;" time="3.168"/>
+  <testcase classname="Verifying the Book Hotel by passing all fields" name="User should search the respective hotel details &quot;New York&quot;,&quot;Hotel Hervey&quot;,&quot;Deluxe&quot;,&quot;4 - Four&quot;,&quot;27/12/2022&quot;,&quot;29/12/2022&quot;,&quot;2 - Two&quot; and &quot;2 - Two&quot;" time="3.904"/>
+  <testcase classname="Verifying the Book Hotel by passing all fields" name="User should verify the success message after search &quot;Select Hotel&quot;" time="0.072"/>
+  <testcase classname="Verifying the Book Hotel by passing all fields" name="User should select the Hotel name" time="1.26"/>
+  <testcase classname="Verifying the Book Hotel by passing all fields" name="User should verify the success message after click the continue &quot;Book A Hotel&quot;" time="0.079"/>
+  <testcase classname="Verifying the Book Hotel by passing all fields" name="User should enter the &quot;CONTAINER&quot;,&quot;PORT&quot; and &quot;JAPAN&quot;" time="12.132"/>
+  <testcase classname="Verifying the Book Hotel by passing all fields" name="User should verify success message after booking &quot;Booking Confirmation&quot; and save the generated order id" time="0.129"/>
+  <testcase classname="Verifying the Book Hotel by passing all fields" name="Verifying the Book Hotel by passing all fields" time="1.507"/>
+  <testcase classname="Verifying the Book Hotel by without passing any fields" name="User is on the adactin page" time="0"/>
+  <testcase classname="Verifying the Book Hotel by without passing any fields" name="User should perform login &quot;CONTAINER&quot;,&quot;9940356983&quot;" time="3.133"/>
+  <testcase classname="Verifying the Book Hotel by without passing any fields" name="User should verify after the login with success message &quot;Hello CONTAINER!&quot;" time="0.126"/>
+  <testcase classname="Verifying the Book Hotel by without passing any fields" name="User should search the respective hotel details &quot;New York&quot;,&quot;Hotel Hervey&quot;,&quot;Deluxe&quot;,&quot;4 - Four&quot;,&quot;27/12/2022&quot;,&quot;29/12/2022&quot;,&quot;2 - Two&quot; and &quot;2 - Two&quot;" time="4.045"/>
+  <testcase classname="Verifying the Book Hotel by without passing any fields" name="User should verify the success message after search &quot;Select Hotel&quot;" time="0.079"/>
+  <testcase classname="Verifying the Book Hotel by without passing any fields" name="User should select the Hotel name" time="1.243"/>
+  <testcase classname="Verifying the Book Hotel by without passing any fields" name="User should verify the success message after click the continue &quot;Book A Hotel&quot;" time="0.11"/>
+  <testcase classname="Verifying the Book Hotel by without passing any fields" name="User should click the Book now button" time="0.163"/>
+  <testcase classname="Verifying the Book Hotel by without passing any fields" name="User should verify the error message &quot;Please Enter your First Name&quot;,&quot;Please Enter you Last Name&quot;,&quot;Please Enter your Address&quot;,&quot;Please Enter your 16 Digit Credit Card Number&quot;,&quot;Please Select your Credit Card Type&quot;,&quot;Please Select your Credit Card Expiry Month&quot; and &quot;Please Enter your Credit Card CVV Number&quot;" time="0.498"/>
+  <testcase classname="Verifying the Book Hotel by without passing any fields" name="Verifying the Book Hotel by without passing any fields" time="2.209"/>
+  <testcase classname="Verifying the cancel booking by passing the generated order id" name="User is on the adactin page" time="0"/>
+  <testcase classname="Verifying the cancel booking by passing the generated order id" name="User should perform login &quot;CONTAINER&quot;,&quot;9940356983&quot;" time="3.874"/>
+  <testcase classname="Verifying the cancel booking by passing the generated order id" name="User should verify after the login with success message &quot;Hello CONTAINER!&quot;" time="0.088"/>
+  <testcase classname="Verifying the cancel booking by passing the generated order id" name="User should search the respective hotel details &quot;New York&quot;,&quot;Hotel Hervey&quot;,&quot;Deluxe&quot;,&quot;4 - Four&quot;,&quot;27/12/2022&quot;,&quot;29/12/2022&quot;,&quot;2 - Two&quot; and &quot;2 - Two&quot;" time="4.386"/>
+  <testcase classname="Verifying the cancel booking by passing the generated order id" name="User should verify the success message after search &quot;Select Hotel&quot;" time="0.086"/>
+  <testcase classname="Verifying the cancel booking by passing the generated order id" name="User should select the Hotel name" time="1.311"/>
+  <testcase classname="Verifying the cancel booking by passing the generated order id" name="User should verify the success message after click the continue &quot;Book A Hotel&quot;" time="0.087"/>
+  <testcase classname="Verifying the cancel booking by passing the generated order id" name="User should enter the &quot;CONTAINER&quot;,&quot;PORT&quot; and &quot;JAPAN&quot;" time="14.661"/>
+  <testcase classname="Verifying the cancel booking by passing the generated order id" name="User should verify success message after booking &quot;Booking Confirmation&quot; and save the generated order id" time="0.078"/>
+  <testcase classname="Verifying the cancel booking by passing the generated order id" name="User should cancel booking by passing the generated order id" time="7.293"/>
+  <testcase classname="Verifying the cancel booking by passing the generated order id" name="User should verify the cancel success message &quot;The booking has been cancelled.&quot;" time="1.977"/>
+  <testcase classname="Verifying the cancel booking by passing the generated order id" name="Verifying the cancel booking by passing the generated order id" time="7.513"/>
+  <testcase classname="Verifying the cancel booking by passing the existing order id" name="User is on the adactin page" time="0"/>
+  <testcase classname="Verifying the cancel booking by passing the existing order id" name="User should perform login &quot;CONTAINER&quot;,&quot;9940356983&quot;" time="5.172"/>
+  <testcase classname="Verifying the cancel booking by passing the existing order id" name="User should verify after the login with success message &quot;Hello CONTAINER!&quot;" time="0.095"/>
+  <testcase classname="Verifying the cancel booking by passing the existing order id" name="User should click the Booked Itinerary" time="0.837"/>
+  <testcase classname="Verifying the cancel booking by passing the existing order id" name="User should cancel booking by passing the existing order id &quot;T01BNG8C24&quot;" time="1.642"/>
+  <testcase classname="Verifying the cancel booking by passing the existing order id" name="User should verify the cancel success message &quot;The booking has been cancelled.&quot;" time="2.256"/>
+  <testcase classname="Verifying the cancel booking by passing the existing order id" name="Verifying the cancel booking by passing the existing order id" time="3.778"/>
+</testsuite>
